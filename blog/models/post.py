@@ -1,6 +1,6 @@
 from django.db import models
 from django.conf import settings
-from tag import Tag
+from .tag import Tag
 
 
 class Post(models.Model):
