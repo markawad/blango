@@ -1,0 +1,3 @@
+auther = foreign key -> one author many posts
+blank = true -> forms/admin can leave this field as empty
+null = true -> database allows for the field to be null
