@@ -6,6 +6,7 @@ from blog.models.post import Post
 class PostAdmin(admin.ModelAdmin):
     prepopulated_fields = {'slug': ('title',)}
     exclude = ['created_at']
+    list_display = ['title', 'published_at']
 
 
 admin.site.register(Tag)
